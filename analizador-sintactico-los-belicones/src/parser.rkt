@@ -38,12 +38,4 @@ como nodos en el árbol.
     [end EOF]       ; Paramos cuando veamos el token EOF
     [tokens contenedores vacios] ; Tokens que reconocerá el parser
     [error void]    ; Procedimiento si encontramos un error
-
-    [precs  (nonassoc NOT)
-            (left * / MOD)
-            (left + -)
-            (left <= >= < >)
-            (left = EQ NEQ)
-            (left AND)
-            (left OR)]
-    ))
+..... ;continua aqui con el codigo
